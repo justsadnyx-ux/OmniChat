@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Chat": {
+      "path": "users/{userId}/chats/{chatId}",
+      "properties": {
+        "userId": "string",
+        "title": "string",
+        "model": "string",
+        "createdAt": "timestamp",
+        "updatedAt": "timestamp"
+      }
+    },
+    "Message": {
+      "path": "users/{userId}/chats/{chatId}/messages/{messageId}",
+      "properties": {
+        "chatId": "string",
+        "role": "string",
+        "content": "string",
+        "timestamp": "timestamp"
+      }
+    },
+    "PromptTemplate": {
+      "path": "users/{userId}/prompts/{promptId}",
+      "properties": {
+        "userId": "string",
+        "title": "string",
+        "category": "string",
+        "prompt": "string",
+        "isFavorite": "boolean"
+      }
+    },
+    "WorkflowAutomation": {
+      "path": "users/{userId}/workflows/{workflowId}",
+      "properties": {
+        "userId": "string",
+        "name": "string",
+        "description": "string",
+        "systemPrompt": "string",
+        "lastRun": "timestamp"
+      }
+    }
+  }
+}

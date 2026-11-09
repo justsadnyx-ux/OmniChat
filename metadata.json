@@ -1,0 +1,6 @@
+{
+  "name": "OmniChat",
+  "description": "Custom multi-model AI assistant with bring-your-own API keys, secure cloud sync, and AI workflow automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,11 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "databases": [
+      {
+        "databaseId": "ai-studio-android-6df870b9-b2d5-4544-8255-27fe53e3cad3",
+        "rules": "firestore.rules"
+      }
+    ]
+  }
+}
